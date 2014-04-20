@@ -17,6 +17,9 @@
 # Audio
 PRODUCT_COPY_FILES += \
     vendor/xiaomi/aries/proprietary/lib/libaudcal.so:system/lib/libaudcal.so \
+    vendor/xiaomi/aries/proprietary/lib/libaudioflinger.so:system/lib/libaudioflinger.so \
+    vendor/xiaomi/aries/proprietary/lib/libaudio-resampler.so:system/lib/libaudio-resampler.so \
+    vendor/xiaomi/aries/proprietary/lib/libaudioutils.so:system/lib/libaudioutils.so \
     vendor/xiaomi/aries/proprietary/lib/libcsd-client.so:system/lib/libcsd-client.so
 
 # Back Cam
